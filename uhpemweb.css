@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    background-color: #2C3639;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #3F4E4F;
+    box-shadow: 20px 20px 12px rgba(0,0,0,0.2 );
+    padding: 0px 4%;
+    
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    margin: 30px;
+    font-family: calibri;
+    color: #fffbfb;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.logo{
+    font-family: calibri;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.active{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.text-container p:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    color: #fdfdfd;
+    font-size: 22px;
+}
+
+.text-container p:nth-child(2){
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #f0eaea;
+    font-size: 60px;
+}
+
+.text-container p:nth-child(3){
+    font-family: myriad pro regular;
+    color: #f0e8e8;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.text-container p:nth-child(4){
+    font-family: calibri;
+    color: #9e9b9b;
+    font-size: 17px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.text-container p{
+    line-height: 0px;
+    margin: 55px 0px 25px;
+}
+
+.text-container{
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%, -42%);
+}
+
+.text-container button{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 0px 10px;
+}
+
+.hire-btn{
+    border: 2px solid #373636;
+    color: #373636;
+}
+
+.down-cv{
+    background-color: #0b0b0b;
+    color: #ffffff;
+    border: none;
+}
+
+button:active{
+    transform: scale(1.1);
+}
+
+.model{
+    height: 490px;
+    position: absolute;
+    bottom: 120px;
+    left: 75%;
+    transform: translate(-70%);
+    border-radius: 400px; 
+    -moz-border-radius: 100px;
+}
+
+audio{
+    width: 500px;
+    
+}
+
+h2 {
+    color: #ffffff;
+    background-color: #2C3639;
+    height: 400px;
+}
+
+h2 p1{
+    margin-top: 20px;
+    padding-top:10px;
+    font-family: arial;
+}
+
+center{
+    margin-top: 20px;
+}
+
+.pemisah{
+    background-color:#3F4E4F;
+    height: 10px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 12px rgba(0,0,0,0.2 );
+}
